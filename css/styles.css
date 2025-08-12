@@ -1,0 +1,30 @@
+:root {
+  --brand-primary: #6f42c1;
+}
+
+.hero-section {
+  background: radial-gradient(1200px 600px at 10% -10%, rgba(111,66,193,.15), transparent),
+              radial-gradient(1200px 600px at 90% 110%, rgba(111,66,193,.15), transparent);
+}
+
+.hero-image {
+  background: url('https://images.unsplash.com/photo-1512499617640-c2f999098c69?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+}
+
+.card .price {
+  font-weight: 700;
+}
+
+.badge-category {
+  background-color: rgba(111, 66, 193, 0.1);
+  color: var(--brand-primary);
+  border: 1px solid rgba(111, 66, 193, 0.25);
+}
+
+.product-img {
+  object-fit: cover;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
